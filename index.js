@@ -23,6 +23,18 @@ function iLoveTheBeatles(n) {
   const newArray = []
   
   do {
-    return newArray.push("I love the Beatles!")
+   newArray.push("I love the Beatles!")
+   n++
   } while (n<15);
 }
+
+// function iLoveTheBeatles(n) {
+//   const arr = []
+
+//   do {
+//     arr.push('I love the Beatles!')
+//     n++
+//   } while (n < 15)
+
+//   return arr
+// }
